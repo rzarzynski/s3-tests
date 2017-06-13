@@ -1,0 +1,38 @@
+PUT
+zVSVbEGsVhwBIAfw1OaqjA==
+application/octet-stream
+Mon, 23 May 2016 16:49:12 GMT
+/rzarzynski-wniwcktdtbac0k16ek-87/quxx
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:1gZDC8aUDjCe458xbhjtOzndw6g=
+boto: DEBUG: Final headers: {'Content-Length': '4', 'Content-MD5': 'zVSVbEGsVhwBIAfw1OaqjA==', 'Expect': '100-Continue', 'Date': 'Mon, 23 May 2016 16:49:12 GMT', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:1gZDC8aUDjCe458xbhjtOzndw6g='}
+boto: DEBUG: Response headers: [('date', 'Mon, 23 May 2016 16:49:12 GMT'), ('content-length', '0'), ('etag', '"cd54956c41ac561c012007f0d4e6aa8c"'), ('accept-ranges', 'bytes'), ('x-amz-request-id', 'tx0000000000000000003d6-0057433488-1016-default')]
+boto: DEBUG: path=/rzarzynski-wniwcktdtbac0k16ek-87/
+boto: DEBUG: auth_path=/rzarzynski-wniwcktdtbac0k16ek-87/
+boto: DEBUG: path=/rzarzynski-wniwcktdtbac0k16ek-87/?max-keys=%0A
+boto: DEBUG: auth_path=/rzarzynski-wniwcktdtbac0k16ek-87/?max-keys=%0A
+boto: DEBUG: Method: GET
+boto: DEBUG: Path: /rzarzynski-wniwcktdtbac0k16ek-87/?max-keys=%0A
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:8000
+boto: DEBUG: Port: 8000
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+GET
+
+
+Mon, 23 May 2016 16:49:12 GMT
+/rzarzynski-wniwcktdtbac0k16ek-87/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:dyhqGSdrpcrodF7t5uwrAGEJShM=
+boto: DEBUG: Final headers: {'Date': 'Mon, 23 May 2016 16:49:12 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:dyhqGSdrpcrodF7t5uwrAGEJShM=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Mon, 23 May 2016 16:49:12 GMT'), ('content-length', '254'), ('x-amz-request-id', 'tx0000000000000000003d7-0057433488-1016-default'), ('content-type', 'application/xml')]
+boto: DEBUG: <?xml version="1.0" encoding="UTF-8"?><ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>rzarzynski-wniwcktdtbac0k16ek-87</Name><Prefix></Prefix><Marker></Marker><MaxKeys>0</MaxKeys><IsTruncated>false</IsTruncated></ListBucketResult>
+--------------------- >> end captured logging << ---------------------
+
+----------------------------------------------------------------------
+Ran 359 tests in 249.701s
+
+FAILED (SKIP=4, errors=1, failures=5)

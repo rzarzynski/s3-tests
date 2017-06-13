@@ -1,0 +1,1702 @@
+s3tests.functional.test_headers.test_object_create_bad_md5_invalid_garbage ... ok
+s3tests.functional.test_headers.test_object_create_bad_md5_invalid_short ... ok
+s3tests.functional.test_headers.test_object_create_bad_md5_bad ... ok
+s3tests.functional.test_headers.test_object_create_bad_md5_empty ... ok
+s3tests.functional.test_headers.test_object_create_bad_md5_unreadable ... ok
+s3tests.functional.test_headers.test_object_create_bad_md5_none ... ok
+s3tests.functional.test_headers.test_object_create_bad_expect_empty ... ok
+s3tests.functional.test_headers.test_object_create_bad_expect_none ... ok
+s3tests.functional.test_headers.test_object_create_bad_contentlength_negative ... ok
+s3tests.functional.test_headers.test_object_create_bad_contentlength_none ... FAIL
+s3tests.functional.test_headers.test_object_create_bad_contentlength_unreadable ... ok
+s3tests.functional.test_headers.test_object_create_bad_contentlength_mismatch_below ... ok
+s3tests.functional.test_headers.test_object_create_bad_contenttype_invalid ... ok
+s3tests.functional.test_headers.test_object_create_bad_contenttype_empty ... ok
+s3tests.functional.test_headers.test_object_create_bad_contenttype_none ... ok
+s3tests.functional.test_headers.test_object_create_bad_ua_empty ... ok
+s3tests.functional.test_headers.test_object_create_bad_ua_unreadable ... ok
+s3tests.functional.test_headers.test_object_create_bad_ua_none ... ok
+s3tests.functional.test_headers.test_object_create_bad_authorization_invalid ... ok
+s3tests.functional.test_headers.test_object_create_bad_authorization_empty ... ok
+s3tests.functional.test_headers.test_object_create_bad_authorization_none ... ok
+s3tests.functional.test_headers.test_object_create_bad_authorization_incorrect ... ok
+s3tests.functional.test_headers.test_object_create_bad_date_invalid ... ok
+s3tests.functional.test_headers.test_object_create_bad_date_empty ... ok
+s3tests.functional.test_headers.test_object_create_bad_date_unreadable ... ok
+s3tests.functional.test_headers.test_object_create_bad_date_none ... ok
+s3tests.functional.test_headers.test_object_create_bad_date_before_today ... ok
+s3tests.functional.test_headers.test_object_create_bad_date_after_today ... ok
+s3tests.functional.test_headers.test_object_create_bad_date_before_epoch ... ok
+s3tests.functional.test_headers.test_object_create_bad_date_after_end ... ok
+s3tests.functional.test_headers.test_bucket_create_contentlength_none ... ok
+s3tests.functional.test_headers.test_object_acl_create_contentlength_none ... ok
+s3tests.functional.test_headers.test_bucket_put_bad_canned_acl ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_expect_empty ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_contentlength_negative ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_contentlength_none ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_contentlength_unreadable ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_ua_empty ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_ua_unreadable ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_ua_none ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_authorization_invalid ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_authorization_empty ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_authorization_none ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_date_invalid ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_date_empty ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_date_unreadable ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_date_none ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_date_before_today ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_date_after_today ... ok
+s3tests.functional.test_headers.test_bucket_create_bad_date_before_epoch ... ok
+s3tests.functional.test_s3.test_bucket_list_empty ... ok
+s3tests.functional.test_s3.test_bucket_list_distinct ... ok
+s3tests.functional.test_s3.test_bucket_list_many ... ok
+s3tests.functional.test_s3.test_bucket_list_delimiter_basic ... ok
+s3tests.functional.test_s3.test_bucket_list_delimiter_prefix ... ok
+s3tests.functional.test_s3.test_bucket_list_delimiter_alt ... ok
+s3tests.functional.test_s3.test_bucket_list_delimiter_unreadable ... ok
+s3tests.functional.test_s3.test_bucket_list_delimiter_empty ... ok
+s3tests.functional.test_s3.test_bucket_list_delimiter_none ... ok
+s3tests.functional.test_s3.test_bucket_list_delimiter_not_exist ... ok
+s3tests.functional.test_s3.test_bucket_list_prefix_basic ... ok
+s3tests.functional.test_s3.test_bucket_list_prefix_alt ... ok
+s3tests.functional.test_s3.test_bucket_list_prefix_empty ... ok
+s3tests.functional.test_s3.test_bucket_list_prefix_none ... ok
+s3tests.functional.test_s3.test_bucket_list_prefix_not_exist ... ok
+s3tests.functional.test_s3.test_bucket_list_prefix_unreadable ... ok
+s3tests.functional.test_s3.test_bucket_list_prefix_delimiter_basic ... ok
+s3tests.functional.test_s3.test_bucket_list_prefix_delimiter_alt ... ok
+s3tests.functional.test_s3.test_bucket_list_prefix_delimiter_prefix_not_exist ... ok
+s3tests.functional.test_s3.test_bucket_list_prefix_delimiter_delimiter_not_exist ... ok
+s3tests.functional.test_s3.test_bucket_list_prefix_delimiter_prefix_delimiter_not_exist ... ok
+s3tests.functional.test_s3.test_bucket_list_maxkeys_one ... ok
+s3tests.functional.test_s3.test_bucket_list_maxkeys_zero ... ok
+s3tests.functional.test_s3.test_bucket_list_maxkeys_none ... ok
+s3tests.functional.test_s3.test_bucket_list_maxkeys_invalid ... ok
+s3tests.functional.test_s3.test_bucket_list_marker_none ... ok
+s3tests.functional.test_s3.test_bucket_list_marker_empty ... ok
+s3tests.functional.test_s3.test_bucket_list_marker_unreadable ... ok
+s3tests.functional.test_s3.test_bucket_list_marker_not_in_list ... ok
+s3tests.functional.test_s3.test_bucket_list_marker_after_list ... ok
+s3tests.functional.test_s3.test_bucket_list_marker_before_list ... ok
+s3tests.functional.test_s3.test_bucket_list_return_data ... ok
+s3tests.functional.test_s3.test_bucket_list_object_time ... ok
+s3tests.functional.test_s3.test_bucket_notexist ... ok
+s3tests.functional.test_s3.test_bucket_delete_notexist ... ok
+s3tests.functional.test_s3.test_bucket_delete_nonempty ... ok
+s3tests.functional.test_s3.test_object_write_to_nonexist_bucket ... ok
+s3tests.functional.test_s3.test_bucket_create_delete ... ok
+s3tests.functional.test_s3.test_object_read_notexist ... ok
+s3tests.functional.test_s3.test_object_create_special_characters ... ok
+s3tests.functional.test_s3.test_object_create_unreadable ... ok
+s3tests.functional.test_s3.test_multi_object_delete ... ok
+s3tests.functional.test_s3.test_object_write_check_etag ... ok
+s3tests.functional.test_s3.test_object_write_cache_control ... ok
+s3tests.functional.test_s3.test_object_write_expires ... ok
+s3tests.functional.test_s3.test_object_write_read_update_read_delete ... ok
+s3tests.functional.test_s3.test_object_set_get_metadata_none_to_good ... ok
+s3tests.functional.test_s3.test_object_set_get_metadata_none_to_empty ... ok
+s3tests.functional.test_s3.test_object_set_get_metadata_overwrite_to_good ... ok
+s3tests.functional.test_s3.test_object_set_get_metadata_overwrite_to_empty ... ok
+s3tests.functional.test_s3.test_object_set_get_unicode_metadata ... ok
+s3tests.functional.test_s3.test_object_set_get_non_utf8_metadata ... ok
+s3tests.functional.test_s3.test_object_set_get_metadata_empty_to_unreadable_prefix ... ok
+s3tests.functional.test_s3.test_object_set_get_metadata_empty_to_unreadable_suffix ... ok
+s3tests.functional.test_s3.test_object_set_get_metadata_empty_to_unreadable_infix ... ok
+s3tests.functional.test_s3.test_object_set_get_metadata_overwrite_to_unreadable_prefix ... ok
+s3tests.functional.test_s3.test_object_set_get_metadata_overwrite_to_unreadable_suffix ... ok
+s3tests.functional.test_s3.test_object_set_get_metadata_overwrite_to_unreadable_infix ... ok
+s3tests.functional.test_s3.test_object_metadata_replaced_on_put ... ok
+s3tests.functional.test_s3.test_object_write_file ... ok
+s3tests.functional.test_s3.test_post_object_anonymous_request ... ok
+s3tests.functional.test_s3.test_post_object_authenticated_request ... ok
+s3tests.functional.test_s3.test_post_object_authenticated_request_bad_access_key ... ok
+s3tests.functional.test_s3.test_post_object_set_success_code ... ok
+s3tests.functional.test_s3.test_post_object_set_invalid_success_code ... ok
+s3tests.functional.test_s3.test_post_object_upload_larger_than_chunk ... FAIL
+s3tests.functional.test_s3.test_post_object_set_key_from_filename ... ok
+s3tests.functional.test_s3.test_post_object_ignored_header ... ok
+s3tests.functional.test_s3.test_post_object_case_insensitive_condition_fields ... ok
+s3tests.functional.test_s3.test_post_object_escaped_field_values ... ok
+s3tests.functional.test_s3.test_post_object_success_redirect_action ... ok
+s3tests.functional.test_s3.test_post_object_invalid_signature ... ok
+s3tests.functional.test_s3.test_post_object_invalid_access_key ... ok
+s3tests.functional.test_s3.test_post_object_invalid_date_format ... ok
+s3tests.functional.test_s3.test_post_object_no_key_specified ... ok
+s3tests.functional.test_s3.test_post_object_missing_signature ... ok
+s3tests.functional.test_s3.test_post_object_missing_policy_condition ... ok
+s3tests.functional.test_s3.test_post_object_user_specified_header ... ok
+s3tests.functional.test_s3.test_post_object_request_missing_policy_specified_field ... ok
+s3tests.functional.test_s3.test_post_object_condition_is_case_sensitive ... ok
+s3tests.functional.test_s3.test_post_object_expires_is_case_sensitive ... ok
+s3tests.functional.test_s3.test_post_object_expired_policy ... ok
+s3tests.functional.test_s3.test_post_object_invalid_request_field_value ... ok
+s3tests.functional.test_s3.test_post_object_missing_expires_condition ... ok
+s3tests.functional.test_s3.test_post_object_missing_conditions_list ... ok
+s3tests.functional.test_s3.test_post_object_upload_size_limit_exceeded ... ok
+s3tests.functional.test_s3.test_post_object_missing_content_length_argument ... ok
+s3tests.functional.test_s3.test_post_object_invalid_content_length_argument ... ok
+s3tests.functional.test_s3.test_post_object_upload_size_below_minimum ... ok
+s3tests.functional.test_s3.test_put_object_ifmatch_good ... ok
+s3tests.functional.test_s3.test_put_object_ifmatch_failed ... ok
+s3tests.functional.test_s3.test_put_object_ifmatch_overwrite_existed_good ... ok
+s3tests.functional.test_s3.test_put_object_ifmatch_nonexisted_failed ... ok
+s3tests.functional.test_s3.test_put_object_ifnonmatch_good ... ok
+s3tests.functional.test_s3.test_put_object_ifnonmatch_failed ... ok
+s3tests.functional.test_s3.test_put_object_ifnonmatch_nonexisted_good ... ok
+s3tests.functional.test_s3.test_put_object_ifnonmatch_overwrite_existed_failed ... ok
+s3tests.functional.test_s3.test_object_raw_get ... ok
+s3tests.functional.test_s3.test_object_raw_get_bucket_gone ... ok
+s3tests.functional.test_s3.test_object_delete_key_bucket_gone ... ok
+s3tests.functional.test_s3.test_object_raw_get_object_gone ... ok
+s3tests.functional.test_s3.test_bucket_head ... ok
+s3tests.functional.test_s3.test_bucket_head_extended ... ok
+s3tests.functional.test_s3.test_object_raw_get_bucket_acl ... ok
+s3tests.functional.test_s3.test_object_raw_get_object_acl ... ok
+s3tests.functional.test_s3.test_object_raw_authenticated ... ok
+s3tests.functional.test_s3.test_object_raw_authenticated_bucket_acl ... ok
+s3tests.functional.test_s3.test_object_raw_authenticated_object_acl ... ok
+s3tests.functional.test_s3.test_object_raw_authenticated_bucket_gone ... ok
+s3tests.functional.test_s3.test_object_raw_authenticated_object_gone ... ok
+s3tests.functional.test_s3.test_object_raw_put ... ok
+s3tests.functional.test_s3.test_object_raw_put_write_access ... ok
+s3tests.functional.test_s3.test_object_raw_put_authenticated ... ok
+s3tests.functional.test_s3.test_object_raw_put_authenticated_expired ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_bad_starts_nonalpha ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_bad_short_empty ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_bad_short_one ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_bad_short_two ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_bad_long ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_good_long_250 ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_good_long_251 ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_good_long_252 ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_good_long_253 ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_good_long_254 ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_good_long_255 ... ok
+s3tests.functional.test_s3.test_bucket_list_long_name ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_bad_ip ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_bad_punctuation ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_dns_underscore ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_dns_long ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_dns_dash_at_end ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_dns_dot_dot ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_dns_dot_dash ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_dns_dash_dot ... ok
+s3tests.functional.test_s3.test_bucket_create_exists ... ok
+s3tests.functional.test_s3.test_bucket_get_location ... ok
+s3tests.functional.test_s3.test_bucket_create_exists_nonowner ... ok
+s3tests.functional.test_s3.test_bucket_delete_nonowner ... ok
+s3tests.functional.test_s3.test_bucket_acl_default ... ok
+s3tests.functional.test_s3.test_bucket_acl_canned_during_create ... ok
+s3tests.functional.test_s3.test_bucket_acl_canned ... ok
+s3tests.functional.test_s3.test_bucket_acl_canned_publicreadwrite ... ok
+s3tests.functional.test_s3.test_bucket_acl_canned_authenticatedread ... ok
+s3tests.functional.test_s3.test_object_acl_default ... ok
+s3tests.functional.test_s3.test_object_acl_canned_during_create ... ok
+s3tests.functional.test_s3.test_object_acl_canned ... ok
+s3tests.functional.test_s3.test_object_acl_canned_publicreadwrite ... ok
+s3tests.functional.test_s3.test_object_acl_canned_authenticatedread ... ok
+s3tests.functional.test_s3.test_object_acl_canned_bucketownerread ... ok
+s3tests.functional.test_s3.test_object_acl_canned_bucketownerfullcontrol ... ok
+s3tests.functional.test_s3.test_object_acl_full_control_verify_owner ... ok
+s3tests.functional.test_s3.test_object_acl_full_control_verify_attributes ... ok
+s3tests.functional.test_s3.test_bucket_acl_canned_private_to_private ... ok
+s3tests.functional.test_s3.test_bucket_acl_xml_fullcontrol ... ok
+s3tests.functional.test_s3.test_bucket_acl_xml_write ... ok
+s3tests.functional.test_s3.test_bucket_acl_xml_writeacp ... ok
+s3tests.functional.test_s3.test_bucket_acl_xml_read ... ok
+s3tests.functional.test_s3.test_bucket_acl_xml_readacp ... ok
+s3tests.functional.test_s3.test_object_acl_xml ... ok
+s3tests.functional.test_s3.test_object_acl_xml_write ... ok
+s3tests.functional.test_s3.test_object_acl_xml_writeacp ... ok
+s3tests.functional.test_s3.test_object_acl_xml_read ... ok
+s3tests.functional.test_s3.test_object_acl_xml_readacp ... ok
+s3tests.functional.test_s3.test_bucket_acl_grant_userid_fullcontrol ... ok
+s3tests.functional.test_s3.test_bucket_acl_grant_userid_read ... ok
+s3tests.functional.test_s3.test_bucket_acl_grant_userid_readacp ... ok
+s3tests.functional.test_s3.test_bucket_acl_grant_userid_write ... ok
+s3tests.functional.test_s3.test_bucket_acl_grant_userid_writeacp ... ok
+s3tests.functional.test_s3.test_bucket_acl_grant_nonexist_user ... ok
+s3tests.functional.test_s3.test_bucket_acl_no_grants ... ok
+s3tests.functional.test_s3.test_object_header_acl_grants ... ok
+s3tests.functional.test_s3.test_bucket_header_acl_grants ... ok
+s3tests.functional.test_s3.test_bucket_acl_grant_email ... ok
+s3tests.functional.test_s3.test_bucket_acl_grant_email_notexist ... ok
+s3tests.functional.test_s3.test_bucket_acl_revoke_all ... ok
+s3tests.functional.test_s3.test_access_bucket_private_object_private ... ok
+s3tests.functional.test_s3.test_access_bucket_private_object_publicread ... ok
+s3tests.functional.test_s3.test_access_bucket_private_object_publicreadwrite ... ok
+s3tests.functional.test_s3.test_access_bucket_publicread_object_private ... ok
+s3tests.functional.test_s3.test_access_bucket_publicread_object_publicread ... ok
+s3tests.functional.test_s3.test_access_bucket_publicread_object_publicreadwrite ... ok
+s3tests.functional.test_s3.test_access_bucket_publicreadwrite_object_private ... ok
+s3tests.functional.test_s3.test_access_bucket_publicreadwrite_object_publicread ... ok
+s3tests.functional.test_s3.test_access_bucket_publicreadwrite_object_publicreadwrite ... ok
+s3tests.functional.test_s3.test_object_set_valid_acl ... ok
+s3tests.functional.test_s3.test_object_giveaway ... ok
+s3tests.functional.test_s3.test_buckets_create_then_list ... ok
+s3tests.functional.test_s3.test_list_buckets_anonymous ... ok
+s3tests.functional.test_s3.test_list_buckets_invalid_auth ... ok
+s3tests.functional.test_s3.test_list_buckets_bad_auth ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_good_starts_alpha ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_good_starts_digit ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_good_contains_period ... ok
+s3tests.functional.test_s3.test_bucket_create_naming_good_contains_hyphen ... ok
+s3tests.functional.test_s3.test_bucket_recreate_not_overriding ... ok
+s3tests.functional.test_s3.test_bucket_create_special_key_names ... ok
+s3tests.functional.test_s3.test_bucket_list_special_prefix ... ok
+s3tests.functional.test_s3.test_object_copy_zero_size ... ok
+s3tests.functional.test_s3.test_object_copy_same_bucket ... ok
+s3tests.functional.test_s3.test_object_copy_to_itself ... ok
+s3tests.functional.test_s3.test_object_copy_to_itself_with_metadata ... ok
+s3tests.functional.test_s3.test_object_copy_diff_bucket ... ok
+s3tests.functional.test_s3.test_object_copy_not_owned_bucket ... ok
+s3tests.functional.test_s3.test_object_copy_not_owned_object_bucket ... ok
+s3tests.functional.test_s3.test_object_copy_canned_acl ... ok
+s3tests.functional.test_s3.test_object_copy_retaining_metadata ... ok
+s3tests.functional.test_s3.test_object_copy_replacing_metadata ... ok
+s3tests.functional.test_s3.test_multipart_upload_empty ... ok
+s3tests.functional.test_s3.test_multipart_upload_small ... ok
+s3tests.functional.test_s3.test_multipart_upload ... ERROR
+s3tests.functional.test_s3.test_multipart_upload_resend_part ... ERROR
+s3tests.functional.test_s3.test_multipart_upload_multiple_sizes ... ERROR
+s3tests.functional.test_s3.test_multipart_upload_size_too_small ... ok
+s3tests.functional.test_s3.test_multipart_upload_contents ... ERROR
+s3tests.functional.test_s3.test_multipart_upload_overwrite_existing_object ... ERROR
+s3tests.functional.test_s3.test_abort_multipart_upload ... ERROR
+s3tests.functional.test_s3.test_abort_multipart_upload_not_found ... ok
+s3tests.functional.test_s3.test_list_multipart_upload ... ERROR
+s3tests.functional.test_s3.test_multipart_upload_missing_part ... ok
+s3tests.functional.test_s3.test_multipart_upload_incorrect_etag ... ok
+s3tests.functional.test_s3.test_100_continue ... FAIL
+s3tests.functional.test_s3.test_bucket_acls_changes_persistent ... ok
+s3tests.functional.test_s3.test_stress_bucket_acls_changes ... ok
+s3tests.functional.test_s3.test_set_cors ... ok
+s3tests.functional.test_s3.test_cors_origin_response ... ok
+s3tests.functional.test_s3.test_atomic_read_1mb ... ok
+s3tests.functional.test_s3.test_atomic_read_4mb ... ERROR
+s3tests.functional.test_s3.test_atomic_read_8mb ... ERROR
+s3tests.functional.test_s3.test_atomic_write_1mb ... ok
+s3tests.functional.test_s3.test_atomic_write_4mb ... ERROR
+s3tests.functional.test_s3.test_atomic_write_8mb ... ERROR
+s3tests.functional.test_s3.test_atomic_dual_write_1mb ... ok
+s3tests.functional.test_s3.test_atomic_dual_write_4mb ... ERROR
+s3tests.functional.test_s3.test_atomic_dual_write_8mb ... ERROR
+s3tests.functional.test_s3.test_atomic_conditional_write_1mb ... ok
+s3tests.functional.test_s3.test_atomic_dual_conditional_write_1mb ... ok
+s3tests.functional.test_s3.test_atomic_write_bucket_gone ... ok
+s3tests.functional.test_s3.test_ranged_request_response_code ... ok
+s3tests.functional.test_s3.test_ranged_request_skip_leading_bytes_response_code ... ok
+s3tests.functional.test_s3.test_ranged_request_return_trailing_bytes_response_code ... ok
+s3tests.functional.test_s3.test_ranged_request_invalid_range ... ok
+s3tests.functional.test_s3.check_can_test_multiregion ... SKIP
+s3tests.functional.test_s3.test_region_bucket_create_secondary_access_remove_master ... SKIP
+s3tests.functional.test_s3.test_region_bucket_create_master_access_remove_secondary ... SKIP
+s3tests.functional.test_s3.test_region_copy_object ... SKIP
+s3tests.functional.test_s3.test_versioning_bucket_create_suspend ... ok
+s3tests.functional.test_s3.test_versioning_obj_create_read_remove ... ok
+s3tests.functional.test_s3.test_versioning_obj_create_read_remove_head ... ok
+s3tests.functional.test_s3.test_versioning_obj_suspend_versions ... ok
+s3tests.functional.test_s3.test_versioning_obj_suspend_versions_simple ... ok
+s3tests.functional.test_s3.test_versioning_obj_create_versions_remove_all ... ok
+s3tests.functional.test_s3.test_versioning_obj_create_versions_remove_special_names ... ok
+s3tests.functional.test_s3.test_versioning_obj_create_overwrite_multipart ... ERROR
+s3tests.functional.test_s3.test_versioning_obj_list_marker ... ok
+s3tests.functional.test_s3.test_versioning_copy_obj_version ... ok
+s3tests.functional.test_s3.test_versioning_multi_object_delete ... ok
+s3tests.functional.test_s3.test_versioning_multi_object_delete_with_marker ... ok
+s3tests.functional.test_s3.test_versioning_multi_object_delete_with_marker_create ... ok
+s3tests.functional.test_s3.test_versioned_object_acl ... ok
+s3tests.functional.test_s3.test_versioned_concurrent_object_create_concurrent_remove ... ok
+s3tests.functional.test_s3.test_versioned_concurrent_object_create_and_remove ... ok
+s3tests.functional.test_utils.test_generate ... ok
+s3tests.fuzz.test.test_fuzzer.test_load_graph ... ok
+s3tests.fuzz.test.test_fuzzer.test_descend_leaf_node ... ok
+s3tests.fuzz.test.test_fuzzer.test_descend_node ... ok
+s3tests.fuzz.test.test_fuzzer.test_descend_bad_node ... ok
+s3tests.fuzz.test.test_fuzzer.test_descend_nonexistant_child ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_printable ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_binary ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_printable_no_whitespace ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_binary_no_whitespace ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_no_args ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_no_charset ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_exact_length ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_bad_charset ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_missing_length ... ok
+s3tests.fuzz.test.test_fuzzer.test_assemble_decision ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_escape ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_indirect ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_indirect_double ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_recursive ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_recursive_mutual ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_recursive_not_too_eager ... ok
+s3tests.fuzz.test.test_fuzzer.test_make_choice_unweighted_with_space ... ok
+s3tests.fuzz.test.test_fuzzer.test_weighted_choices ... ok
+s3tests.fuzz.test.test_fuzzer.test_null_choices ... ok
+s3tests.fuzz.test.test_fuzzer.test_weighted_null_choices ... ok
+s3tests.fuzz.test.test_fuzzer.test_null_child ... ok
+s3tests.fuzz.test.test_fuzzer.test_weighted_set ... ok
+s3tests.fuzz.test.test_fuzzer.test_header_presence ... ok
+s3tests.fuzz.test.test_fuzzer.test_duplicate_header ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_headers ... ok
+test_realistic.TestFileValidator.test_new_file_is_valid ... ok
+test_realistic.TestFileValidator.test_new_file_is_valid_on_several_calls ... ok
+test_realistic.TestFileValidator.test_new_file_is_valid_when_size_is_1 ... ok
+test_realistic.TestFiles.test_random_file_valid ... ok
+
+======================================================================
+ERROR: s3tests.functional.test_s3.test_multipart_upload
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4665, in test_multipart_upload
+    (upload, data) = _multipart_upload(bucket, key, objlen, headers={'Content-Type': content_type}, metadata={'foo': 'bar'})
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4612, in _multipart_upload
+    transfer_part(bucket, upload.id, upload.key_name, i, part)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4580, in transfer_part
+    mp.upload_part_from_file(part_out, i+1)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/multipart.py", line 260, in upload_part_from_file
+    query_args=query_args, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1293, in set_contents_from_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 750, in send_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 951, in _send_file_internal
+    query_args=query_args
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 664, in make_request
+    retry_handler=retry_handler
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1071, in make_request
+    retry_handler=retry_handler)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 940, in _mexe
+    request.body, request.headers)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 884, in sender
+    response.status, response.reason, body)
+S3ResponseError: S3ResponseError: 413 Request Entity Too Large
+None
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-248/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-248/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-248/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:24:10 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-248/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:OHhS9ECwtuLgf2/GirRyKyVVZu0=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:10 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:OHhS9ECwtuLgf2/GirRyKyVVZu0=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:24:10 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx00000000000000000040d-00580106aa-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-248/mymultipart
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-248/mymultipart
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-248/mymultipart?uploads
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-248/mymultipart?uploads
+boto: DEBUG: Method: POST
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-248/mymultipart?uploads
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Type': 'text/bla', 'x-amz-meta-foo': 'bar'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+POST
+
+text/bla
+Fri, 14 Oct 2016 16:24:10 GMT
+x-amz-meta-foo:bar
+/rzarzynski-iixsfhub7eeymlsmz2-248/mymultipart?uploads
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:laRY39J+ol0iPd8lsc6vq7KMjWw=
+boto: DEBUG: Final headers: {'Content-Length': '0', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'x-amz-meta-foo': 'bar', 'Date': 'Fri, 14 Oct 2016 16:24:10 GMT', 'Content-Type': 'text/bla', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:laRY39J+ol0iPd8lsc6vq7KMjWw='}
+boto: DEBUG: Response headers: [('content-length', '275'), ('server', 'nginx/1.4.6 (Ubuntu)'), ('connection', 'keep-alive'), ('x-amz-request-id', 'tx00000000000000000040e-00580106aa-1028-default'), ('date', 'Fri, 14 Oct 2016 16:24:10 GMT'), ('content-type', 'application/xml')]
+boto: DEBUG: <?xml version="1.0" encoding="UTF-8"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>rzarzynski-iixsfhub7eeymlsmz2-248</Bucket><Key>mymultipart</Key><UploadId>2~cxLvtLtl8FlyIjj8SqPHRYdS3ZDw6Gw</UploadId></InitiateMultipartUploadResult>
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-248/mymultipart
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-248/mymultipart
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-248/mymultipart?uploadId=2~cxLvtLtl8FlyIjj8SqPHRYdS3ZDw6Gw&partNumber=1
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-248/mymultipart?uploadId=2~cxLvtLtl8FlyIjj8SqPHRYdS3ZDw6Gw&partNumber=1
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-248/mymultipart?uploadId=2~cxLvtLtl8FlyIjj8SqPHRYdS3ZDw6Gw&partNumber=1
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Length': '5242880', 'Content-MD5': u'yUep2gkFdeCFEdf82Ncfuw==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+yUep2gkFdeCFEdf82Ncfuw==
+application/octet-stream
+Fri, 14 Oct 2016 16:24:10 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-248/mymultipart?partNumber=1&uploadId=2~cxLvtLtl8FlyIjj8SqPHRYdS3ZDw6Gw
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:gvYlFTd40IBjAueD6wfmEl07B8c=
+boto: DEBUG: Final headers: {'Content-Length': '5242880', 'Content-MD5': 'yUep2gkFdeCFEdf82Ncfuw==', 'Expect': '100-Continue', 'Date': 'Fri, 14 Oct 2016 16:24:10 GMT', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:gvYlFTd40IBjAueD6wfmEl07B8c='}
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: s3tests.functional.test_s3.test_multipart_upload_resend_part
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4711, in test_multipart_upload_resend_part
+    _check_upload_multipart_resend(bucket, key, objlen, [0])
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4685, in _check_upload_multipart_resend
+    (upload, data) = _multipart_upload(bucket, key, objlen, headers={'Content-Type': content_type}, metadata={'foo': 'bar'}, resend_parts=resend_parts)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4612, in _multipart_upload
+    transfer_part(bucket, upload.id, upload.key_name, i, part)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4580, in transfer_part
+    mp.upload_part_from_file(part_out, i+1)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/multipart.py", line 260, in upload_part_from_file
+    query_args=query_args, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1293, in set_contents_from_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 750, in send_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 951, in _send_file_internal
+    query_args=query_args
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 664, in make_request
+    retry_handler=retry_handler
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1071, in make_request
+    retry_handler=retry_handler)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 940, in _mexe
+    request.body, request.headers)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 884, in sender
+    response.status, response.reason, body)
+S3ResponseError: S3ResponseError: 413 Request Entity Too Large
+None
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-249/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-249/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-249/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 7070, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:24:10 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-249/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:TjAeiJEGkFJbMdQJzzA0PgOYt6g=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:10 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:TjAeiJEGkFJbMdQJzzA0PgOYt6g=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:24:10 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx00000000000000000040f-00580106aa-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-249/mymultipart
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-249/mymultipart
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-249/mymultipart?uploads
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-249/mymultipart?uploads
+boto: DEBUG: Method: POST
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-249/mymultipart?uploads
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Type': 'text/bla', 'x-amz-meta-foo': 'bar'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+POST
+
+text/bla
+Fri, 14 Oct 2016 16:24:10 GMT
+x-amz-meta-foo:bar
+/rzarzynski-iixsfhub7eeymlsmz2-249/mymultipart?uploads
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:PlQ7C5e0pb+/gmSaXm+yca8Dczk=
+boto: DEBUG: Final headers: {'Content-Length': '0', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'x-amz-meta-foo': 'bar', 'Date': 'Fri, 14 Oct 2016 16:24:10 GMT', 'Content-Type': 'text/bla', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:PlQ7C5e0pb+/gmSaXm+yca8Dczk='}
+boto: DEBUG: Response headers: [('content-length', '275'), ('server', 'nginx/1.4.6 (Ubuntu)'), ('connection', 'keep-alive'), ('x-amz-request-id', 'tx000000000000000000410-00580106aa-1028-default'), ('date', 'Fri, 14 Oct 2016 16:24:10 GMT'), ('content-type', 'application/xml')]
+boto: DEBUG: <?xml version="1.0" encoding="UTF-8"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>rzarzynski-iixsfhub7eeymlsmz2-249</Bucket><Key>mymultipart</Key><UploadId>2~W8ml2zk6a0OB52lqUKWhA8ZKWnPKC5f</UploadId></InitiateMultipartUploadResult>
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-249/mymultipart
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-249/mymultipart
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-249/mymultipart?uploadId=2~W8ml2zk6a0OB52lqUKWhA8ZKWnPKC5f&partNumber=1
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-249/mymultipart?uploadId=2~W8ml2zk6a0OB52lqUKWhA8ZKWnPKC5f&partNumber=1
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-249/mymultipart?uploadId=2~W8ml2zk6a0OB52lqUKWhA8ZKWnPKC5f&partNumber=1
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Length': '5242880', 'Content-MD5': u'AQouL8Qu58dVvPbrnUvKQQ==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+AQouL8Qu58dVvPbrnUvKQQ==
+application/octet-stream
+Fri, 14 Oct 2016 16:24:10 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-249/mymultipart?partNumber=1&uploadId=2~W8ml2zk6a0OB52lqUKWhA8ZKWnPKC5f
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:P7D7DrT90089tGgdfqy5terW4eY=
+boto: DEBUG: Final headers: {'Content-Length': '5242880', 'Content-MD5': 'AQouL8Qu58dVvPbrnUvKQQ==', 'Expect': '100-Continue', 'Date': 'Fri, 14 Oct 2016 16:24:10 GMT', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:P7D7DrT90089tGgdfqy5terW4eY='}
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: s3tests.functional.test_s3.test_multipart_upload_multiple_sizes
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4721, in test_multipart_upload_multiple_sizes
+    (upload, data) = _multipart_upload(bucket, key, 5 * 1024 * 1024)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4612, in _multipart_upload
+    transfer_part(bucket, upload.id, upload.key_name, i, part)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4580, in transfer_part
+    mp.upload_part_from_file(part_out, i+1)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/multipart.py", line 260, in upload_part_from_file
+    query_args=query_args, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1293, in set_contents_from_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 750, in send_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 951, in _send_file_internal
+    query_args=query_args
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 664, in make_request
+    retry_handler=retry_handler
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1071, in make_request
+    retry_handler=retry_handler)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 940, in _mexe
+    request.body, request.headers)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 884, in sender
+    response.status, response.reason, body)
+S3ResponseError: S3ResponseError: 413 Request Entity Too Large
+None
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-250/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-250/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-250/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 7070, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:24:10 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-250/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:wq7uFw5qnchZc4rBM5plpdL1oNE=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:10 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:wq7uFw5qnchZc4rBM5plpdL1oNE=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:24:10 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx000000000000000000411-00580106aa-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-250/mymultipart
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-250/mymultipart
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-250/mymultipart?uploads
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-250/mymultipart?uploads
+boto: DEBUG: Method: POST
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-250/mymultipart?uploads
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+POST
+
+
+Fri, 14 Oct 2016 16:24:10 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-250/mymultipart?uploads
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:fz8QawRmFhekZTJSybyrT4S8kAs=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:10 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:fz8QawRmFhekZTJSybyrT4S8kAs=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('content-length', '275'), ('server', 'nginx/1.4.6 (Ubuntu)'), ('connection', 'keep-alive'), ('x-amz-request-id', 'tx000000000000000000412-00580106aa-1028-default'), ('date', 'Fri, 14 Oct 2016 16:24:10 GMT'), ('content-type', 'application/xml')]
+boto: DEBUG: <?xml version="1.0" encoding="UTF-8"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>rzarzynski-iixsfhub7eeymlsmz2-250</Bucket><Key>mymultipart</Key><UploadId>2~c3ykbFq5-8vncvqHSS5cUb0nDyudnRY</UploadId></InitiateMultipartUploadResult>
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-250/mymultipart
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-250/mymultipart
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-250/mymultipart?uploadId=2~c3ykbFq5-8vncvqHSS5cUb0nDyudnRY&partNumber=1
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-250/mymultipart?uploadId=2~c3ykbFq5-8vncvqHSS5cUb0nDyudnRY&partNumber=1
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-250/mymultipart?uploadId=2~c3ykbFq5-8vncvqHSS5cUb0nDyudnRY&partNumber=1
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Length': '5242880', 'Content-MD5': u'8hS/oXYYrvhFBLm5Dz9jaw==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+8hS/oXYYrvhFBLm5Dz9jaw==
+application/octet-stream
+Fri, 14 Oct 2016 16:24:10 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-250/mymultipart?partNumber=1&uploadId=2~c3ykbFq5-8vncvqHSS5cUb0nDyudnRY
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:b0j7iWUs3+BLakwG2Qt+gaAsnZo=
+boto: DEBUG: Final headers: {'Content-Length': '5242880', 'Content-MD5': '8hS/oXYYrvhFBLm5Dz9jaw==', 'Expect': '100-Continue', 'Date': 'Fri, 14 Oct 2016 16:24:10 GMT', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:b0j7iWUs3+BLakwG2Qt+gaAsnZo='}
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: s3tests.functional.test_s3.test_multipart_upload_contents
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4780, in test_multipart_upload_contents
+    _do_test_multipart_upload_contents(get_new_bucket(), 'mymultipart', 3)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4758, in _do_test_multipart_upload_contents
+    mp.upload_part_from_file(StringIO(payload), i+1)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/multipart.py", line 260, in upload_part_from_file
+    query_args=query_args, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1293, in set_contents_from_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 750, in send_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 951, in _send_file_internal
+    query_args=query_args
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 664, in make_request
+    retry_handler=retry_handler
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1071, in make_request
+    retry_handler=retry_handler)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 940, in _mexe
+    request.body, request.headers)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 884, in sender
+    response.status, response.reason, body)
+S3ResponseError: S3ResponseError: 413 Request Entity Too Large
+None
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-252/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-252/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-252/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:24:11 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-252/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:769QylO34iI/jD1/tiOe83ow9Xk=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:11 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:769QylO34iI/jD1/tiOe83ow9Xk=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:24:11 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx000000000000000000421-00580106ab-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-252/mymultipart
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-252/mymultipart
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-252/mymultipart?uploads
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-252/mymultipart?uploads
+boto: DEBUG: Method: POST
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-252/mymultipart?uploads
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+POST
+
+
+Fri, 14 Oct 2016 16:24:11 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-252/mymultipart?uploads
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:CCgmj3HHjzojfydWqEp8QGGLNMY=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:11 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:CCgmj3HHjzojfydWqEp8QGGLNMY=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('content-length', '275'), ('server', 'nginx/1.4.6 (Ubuntu)'), ('connection', 'keep-alive'), ('x-amz-request-id', 'tx000000000000000000422-00580106ab-1028-default'), ('date', 'Fri, 14 Oct 2016 16:24:11 GMT'), ('content-type', 'application/xml')]
+boto: DEBUG: <?xml version="1.0" encoding="UTF-8"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>rzarzynski-iixsfhub7eeymlsmz2-252</Bucket><Key>mymultipart</Key><UploadId>2~ZOUBX-1dEcOmd1gExbuRAxbvlQeCRFH</UploadId></InitiateMultipartUploadResult>
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-252/mymultipart
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-252/mymultipart
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-252/mymultipart?uploadId=2~ZOUBX-1dEcOmd1gExbuRAxbvlQeCRFH&partNumber=1
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-252/mymultipart?uploadId=2~ZOUBX-1dEcOmd1gExbuRAxbvlQeCRFH&partNumber=1
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-252/mymultipart?uploadId=2~ZOUBX-1dEcOmd1gExbuRAxbvlQeCRFH&partNumber=1
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Length': '5242880', 'Content-MD5': u'IofEZeXzVvwnTLhzaI3oCA==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+IofEZeXzVvwnTLhzaI3oCA==
+application/octet-stream
+Fri, 14 Oct 2016 16:24:11 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-252/mymultipart?partNumber=1&uploadId=2~ZOUBX-1dEcOmd1gExbuRAxbvlQeCRFH
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:GS0NTNiV6KhpF3GvBxD6+DBBoYU=
+boto: DEBUG: Final headers: {'Content-Length': '5242880', 'Content-MD5': 'IofEZeXzVvwnTLhzaI3oCA==', 'Expect': '100-Continue', 'Date': 'Fri, 14 Oct 2016 16:24:11 GMT', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:GS0NTNiV6KhpF3GvBxD6+DBBoYU='}
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: s3tests.functional.test_s3.test_multipart_upload_overwrite_existing_object
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4793, in test_multipart_upload_overwrite_existing_object
+    key.set_contents_from_string(payload)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1426, in set_contents_from_string
+    encrypt_key=encrypt_key)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1293, in set_contents_from_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 750, in send_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 951, in _send_file_internal
+    query_args=query_args
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 664, in make_request
+    retry_handler=retry_handler
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1071, in make_request
+    retry_handler=retry_handler)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 940, in _mexe
+    request.body, request.headers)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 884, in sender
+    response.status, response.reason, body)
+S3ResponseError: S3ResponseError: 413 Request Entity Too Large
+None
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-253/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-253/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-253/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 7070, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:24:11 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-253/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:NxuLL54wKlp3eOI1tLwAkMVy2Kg=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:11 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:NxuLL54wKlp3eOI1tLwAkMVy2Kg=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:24:12 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx000000000000000000423-00580106ab-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-253/mymultipart
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-253/mymultipart
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-253/mymultipart
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Length': '5242880', 'Content-MD5': u'nsmJ9+x6kTPiAyMMU5b0gA==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+nsmJ9+x6kTPiAyMMU5b0gA==
+application/octet-stream
+Fri, 14 Oct 2016 16:24:12 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-253/mymultipart
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:JAOBsdtwfeb91Ct/Z9ybVamXk6k=
+boto: DEBUG: Final headers: {'Content-Length': '5242880', 'Content-MD5': 'nsmJ9+x6kTPiAyMMU5b0gA==', 'Expect': '100-Continue', 'Date': 'Fri, 14 Oct 2016 16:24:12 GMT', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:JAOBsdtwfeb91Ct/Z9ybVamXk6k='}
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: s3tests.functional.test_s3.test_abort_multipart_upload
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4811, in test_abort_multipart_upload
+    (upload, data) = _multipart_upload(bucket, key, 10 * 1024 * 1024)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4612, in _multipart_upload
+    transfer_part(bucket, upload.id, upload.key_name, i, part)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4580, in transfer_part
+    mp.upload_part_from_file(part_out, i+1)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/multipart.py", line 260, in upload_part_from_file
+    query_args=query_args, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1293, in set_contents_from_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 750, in send_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 951, in _send_file_internal
+    query_args=query_args
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 664, in make_request
+    retry_handler=retry_handler
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1071, in make_request
+    retry_handler=retry_handler)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 940, in _mexe
+    request.body, request.headers)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 884, in sender
+    response.status, response.reason, body)
+S3ResponseError: S3ResponseError: 413 Request Entity Too Large
+None
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-254/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-254/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-254/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 7070, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:24:12 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-254/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:9+X+zv9phS3H9XV+fOdGfhySQpc=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:12 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:9+X+zv9phS3H9XV+fOdGfhySQpc=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:24:12 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx000000000000000000424-00580106ac-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-254/mymultipart
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-254/mymultipart
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-254/mymultipart?uploads
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-254/mymultipart?uploads
+boto: DEBUG: Method: POST
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-254/mymultipart?uploads
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+POST
+
+
+Fri, 14 Oct 2016 16:24:12 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-254/mymultipart?uploads
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:Y5uRmxchwzH7SDIq/MCPL2LyWaM=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:12 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:Y5uRmxchwzH7SDIq/MCPL2LyWaM=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('content-length', '275'), ('server', 'nginx/1.4.6 (Ubuntu)'), ('connection', 'keep-alive'), ('x-amz-request-id', 'tx000000000000000000425-00580106ac-1028-default'), ('date', 'Fri, 14 Oct 2016 16:24:12 GMT'), ('content-type', 'application/xml')]
+boto: DEBUG: <?xml version="1.0" encoding="UTF-8"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>rzarzynski-iixsfhub7eeymlsmz2-254</Bucket><Key>mymultipart</Key><UploadId>2~8H0_mI8plm2CV_Zzx90Y0j8oErW9ejD</UploadId></InitiateMultipartUploadResult>
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-254/mymultipart
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-254/mymultipart
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-254/mymultipart?uploadId=2~8H0_mI8plm2CV_Zzx90Y0j8oErW9ejD&partNumber=1
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-254/mymultipart?uploadId=2~8H0_mI8plm2CV_Zzx90Y0j8oErW9ejD&partNumber=1
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-254/mymultipart?uploadId=2~8H0_mI8plm2CV_Zzx90Y0j8oErW9ejD&partNumber=1
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Length': '5242880', 'Content-MD5': u'Elp/5CQsqurVs1HjYmylMw==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+Elp/5CQsqurVs1HjYmylMw==
+application/octet-stream
+Fri, 14 Oct 2016 16:24:12 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-254/mymultipart?partNumber=1&uploadId=2~8H0_mI8plm2CV_Zzx90Y0j8oErW9ejD
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:jUjg4Dd8RuaA+2YSi+16KPpJzv0=
+boto: DEBUG: Final headers: {'Content-Length': '5242880', 'Content-MD5': 'Elp/5CQsqurVs1HjYmylMw==', 'Expect': '100-Continue', 'Date': 'Fri, 14 Oct 2016 16:24:12 GMT', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:jUjg4Dd8RuaA+2YSi+16KPpJzv0='}
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: s3tests.functional.test_s3.test_list_multipart_upload
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4835, in test_list_multipart_upload
+    (upload1, data) = _multipart_upload(bucket, key, 5 * mb, do_list = True)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4612, in _multipart_upload
+    transfer_part(bucket, upload.id, upload.key_name, i, part)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4580, in transfer_part
+    mp.upload_part_from_file(part_out, i+1)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/multipart.py", line 260, in upload_part_from_file
+    query_args=query_args, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1293, in set_contents_from_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 750, in send_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 951, in _send_file_internal
+    query_args=query_args
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 664, in make_request
+    retry_handler=retry_handler
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1071, in make_request
+    retry_handler=retry_handler)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 940, in _mexe
+    request.body, request.headers)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 884, in sender
+    response.status, response.reason, body)
+S3ResponseError: S3ResponseError: 413 Request Entity Too Large
+None
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-256/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-256/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-256/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:24:12 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-256/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:OH+ARGyQR4li8XDZhZgl3rMy0uc=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:12 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:OH+ARGyQR4li8XDZhZgl3rMy0uc=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:24:12 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx000000000000000000428-00580106ac-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-256/mymultipart
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-256/mymultipart
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-256/mymultipart?uploads
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-256/mymultipart?uploads
+boto: DEBUG: Method: POST
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-256/mymultipart?uploads
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+POST
+
+
+Fri, 14 Oct 2016 16:24:12 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-256/mymultipart?uploads
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:zG6xHkxChG35yDvqhCQ7x//i3c4=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:12 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:zG6xHkxChG35yDvqhCQ7x//i3c4=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('content-length', '275'), ('server', 'nginx/1.4.6 (Ubuntu)'), ('connection', 'keep-alive'), ('x-amz-request-id', 'tx000000000000000000429-00580106ac-1028-default'), ('date', 'Fri, 14 Oct 2016 16:24:12 GMT'), ('content-type', 'application/xml')]
+boto: DEBUG: <?xml version="1.0" encoding="UTF-8"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>rzarzynski-iixsfhub7eeymlsmz2-256</Bucket><Key>mymultipart</Key><UploadId>2~v9FDtAra7FGPqUukqa4o0eVoa6Npm0h</UploadId></InitiateMultipartUploadResult>
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-256/mymultipart
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-256/mymultipart
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-256/mymultipart?uploadId=2~v9FDtAra7FGPqUukqa4o0eVoa6Npm0h&partNumber=1
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-256/mymultipart?uploadId=2~v9FDtAra7FGPqUukqa4o0eVoa6Npm0h&partNumber=1
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-256/mymultipart?uploadId=2~v9FDtAra7FGPqUukqa4o0eVoa6Npm0h&partNumber=1
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Length': '5242880', 'Content-MD5': u'2kebN/SUh8GMnj7NuHW69A==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+2kebN/SUh8GMnj7NuHW69A==
+application/octet-stream
+Fri, 14 Oct 2016 16:24:12 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-256/mymultipart?partNumber=1&uploadId=2~v9FDtAra7FGPqUukqa4o0eVoa6Npm0h
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:2lC3vbVsCsOYgKFkHb0e7T3LWZk=
+boto: DEBUG: Final headers: {'Content-Length': '5242880', 'Content-MD5': '2kebN/SUh8GMnj7NuHW69A==', 'Expect': '100-Continue', 'Date': 'Fri, 14 Oct 2016 16:24:12 GMT', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:2lC3vbVsCsOYgKFkHb0e7T3LWZk='}
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: s3tests.functional.test_s3.test_atomic_read_4mb
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 5207, in test_atomic_read_4mb
+    _test_atomic_read(1024*1024*4)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 5171, in _test_atomic_read
+    key.set_contents_from_file(fp_a)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1293, in set_contents_from_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 750, in send_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 951, in _send_file_internal
+    query_args=query_args
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 664, in make_request
+    retry_handler=retry_handler
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1071, in make_request
+    retry_handler=retry_handler)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 940, in _mexe
+    request.body, request.headers)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 884, in sender
+    response.status, response.reason, body)
+S3ResponseError: S3ResponseError: 413 Request Entity Too Large
+None
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-265/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-265/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-265/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:24:18 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-265/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:bZer0ux+H848zOo+qFWMlEDe484=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:18 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:bZer0ux+H848zOo+qFWMlEDe484=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:24:18 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx0000000000000000004d7-00580106b2-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-265/testobj
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-265/testobj
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-265/testobj
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Length': '4194304', 'Content-MD5': u'SjGsNZTLJFwI4TTsBrMFfg==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+SjGsNZTLJFwI4TTsBrMFfg==
+application/octet-stream
+Fri, 14 Oct 2016 16:24:18 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-265/testobj
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:dgymxIpXjdbNZ0uvZfKbuGzWGXE=
+boto: DEBUG: Final headers: {'Content-Length': '4194304', 'Content-MD5': 'SjGsNZTLJFwI4TTsBrMFfg==', 'Expect': '100-Continue', 'Date': 'Fri, 14 Oct 2016 16:24:18 GMT', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:dgymxIpXjdbNZ0uvZfKbuGzWGXE='}
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: s3tests.functional.test_s3.test_atomic_read_8mb
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 5214, in test_atomic_read_8mb
+    _test_atomic_read(1024*1024*8)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 5171, in _test_atomic_read
+    key.set_contents_from_file(fp_a)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1293, in set_contents_from_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 750, in send_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 951, in _send_file_internal
+    query_args=query_args
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 664, in make_request
+    retry_handler=retry_handler
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1071, in make_request
+    retry_handler=retry_handler)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 940, in _mexe
+    request.body, request.headers)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 884, in sender
+    response.status, response.reason, body)
+S3ResponseError: S3ResponseError: 413 Request Entity Too Large
+None
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-266/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-266/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-266/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 7070, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:24:18 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-266/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:84yRGbrVbBgCbuqY4A3uw3ss2F8=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:18 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:84yRGbrVbBgCbuqY4A3uw3ss2F8=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:24:18 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx0000000000000000004d8-00580106b2-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-266/testobj
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-266/testobj
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-266/testobj
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Length': '8388608', 'Content-MD5': u'UYiGy3DBwRnJmtG7tYZeeg==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+UYiGy3DBwRnJmtG7tYZeeg==
+application/octet-stream
+Fri, 14 Oct 2016 16:24:18 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-266/testobj
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:S6q/GVYIcw/YKePxzE2kVYjatQ4=
+boto: DEBUG: Final headers: {'Content-Length': '8388608', 'Content-MD5': 'UYiGy3DBwRnJmtG7tYZeeg==', 'Expect': '100-Continue', 'Date': 'Fri, 14 Oct 2016 16:24:18 GMT', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:S6q/GVYIcw/YKePxzE2kVYjatQ4='}
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: s3tests.functional.test_s3.test_atomic_write_4mb
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 5259, in test_atomic_write_4mb
+    _test_atomic_write(1024*1024*4)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 5230, in _test_atomic_write
+    key.set_contents_from_file(fp_a)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1293, in set_contents_from_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 750, in send_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 951, in _send_file_internal
+    query_args=query_args
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 664, in make_request
+    retry_handler=retry_handler
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1071, in make_request
+    retry_handler=retry_handler)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 940, in _mexe
+    request.body, request.headers)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 884, in sender
+    response.status, response.reason, body)
+S3ResponseError: S3ResponseError: 413 Request Entity Too Large
+None
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-268/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-268/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-268/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:24:18 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-268/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:HbNDs34tPGtnF1e9U98ZxqF5b9w=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:18 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:HbNDs34tPGtnF1e9U98ZxqF5b9w=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:24:18 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx0000000000000000004e1-00580106b2-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-268/testobj
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-268/testobj
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-268/testobj
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Length': '4194304', 'Content-MD5': u'SjGsNZTLJFwI4TTsBrMFfg==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+SjGsNZTLJFwI4TTsBrMFfg==
+application/octet-stream
+Fri, 14 Oct 2016 16:24:18 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-268/testobj
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:HglXTRoqYPfnNXMmTP7atsFuL8I=
+boto: DEBUG: Final headers: {'Content-Length': '4194304', 'Content-MD5': 'SjGsNZTLJFwI4TTsBrMFfg==', 'Expect': '100-Continue', 'Date': 'Fri, 14 Oct 2016 16:24:18 GMT', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:HglXTRoqYPfnNXMmTP7atsFuL8I='}
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: s3tests.functional.test_s3.test_atomic_write_8mb
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 5266, in test_atomic_write_8mb
+    _test_atomic_write(1024*1024*8)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 5230, in _test_atomic_write
+    key.set_contents_from_file(fp_a)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1293, in set_contents_from_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 750, in send_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 951, in _send_file_internal
+    query_args=query_args
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 664, in make_request
+    retry_handler=retry_handler
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1071, in make_request
+    retry_handler=retry_handler)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 940, in _mexe
+    request.body, request.headers)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 884, in sender
+    response.status, response.reason, body)
+S3ResponseError: S3ResponseError: 413 Request Entity Too Large
+None
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-269/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-269/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-269/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:24:18 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-269/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:wvxY84MBgrOGJtG8I5EOSamaXDI=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:18 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:wvxY84MBgrOGJtG8I5EOSamaXDI=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:24:19 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx0000000000000000004e2-00580106b2-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-269/testobj
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-269/testobj
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-269/testobj
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Length': '8388608', 'Content-MD5': u'UYiGy3DBwRnJmtG7tYZeeg==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+UYiGy3DBwRnJmtG7tYZeeg==
+application/octet-stream
+Fri, 14 Oct 2016 16:24:19 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-269/testobj
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:0yMjz0eDFCORy73QzLr2wwFemks=
+boto: DEBUG: Final headers: {'Content-Length': '8388608', 'Content-MD5': 'UYiGy3DBwRnJmtG7tYZeeg==', 'Expect': '100-Continue', 'Date': 'Fri, 14 Oct 2016 16:24:19 GMT', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:0yMjz0eDFCORy73QzLr2wwFemks='}
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: s3tests.functional.test_s3.test_atomic_dual_write_4mb
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 5304, in test_atomic_dual_write_4mb
+    _test_atomic_dual_write(1024*1024*4)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 5287, in _test_atomic_dual_write
+    key.set_contents_from_file(fp_b)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1269, in set_contents_from_file
+    md5 = self.compute_md5(fp, size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1020, in compute_md5
+    hex_digest, b64_digest, data_size = compute_md5(fp, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/utils.py", line 991, in compute_md5
+    return compute_hash(fp, buf_size, size, hash_algorithm=md5)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/utils.py", line 1012, in compute_hash
+    s = fp.read(buf_size)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 5108, in read
+    self.interrupt()
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 5285, in <lambda>
+    lambda: key2.set_contents_from_file(fp_a, rewind=True)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1293, in set_contents_from_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 750, in send_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 951, in _send_file_internal
+    query_args=query_args
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 664, in make_request
+    retry_handler=retry_handler
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1071, in make_request
+    retry_handler=retry_handler)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 940, in _mexe
+    request.body, request.headers)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 884, in sender
+    response.status, response.reason, body)
+S3ResponseError: S3ResponseError: 413 Request Entity Too Large
+None
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-271/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-271/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-271/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:24:19 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-271/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:mKSIMQtXpNSwPncr1SCZaWwkNhA=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:19 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:mKSIMQtXpNSwPncr1SCZaWwkNhA=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:24:19 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx0000000000000000004e8-00580106b3-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-271/testobj
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-271/testobj
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-271/testobj
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Length': '4194304', 'Content-MD5': u'SjGsNZTLJFwI4TTsBrMFfg==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+SjGsNZTLJFwI4TTsBrMFfg==
+application/octet-stream
+Fri, 14 Oct 2016 16:24:19 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-271/testobj
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:4nyMIDJh1Kq3ju5rTJrCOIuxHAY=
+boto: DEBUG: Final headers: {'Content-Length': '4194304', 'Content-MD5': 'SjGsNZTLJFwI4TTsBrMFfg==', 'Expect': '100-Continue', 'Date': 'Fri, 14 Oct 2016 16:24:19 GMT', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:4nyMIDJh1Kq3ju5rTJrCOIuxHAY='}
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: s3tests.functional.test_s3.test_atomic_dual_write_8mb
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 5311, in test_atomic_dual_write_8mb
+    _test_atomic_dual_write(1024*1024*8)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 5287, in _test_atomic_dual_write
+    key.set_contents_from_file(fp_b)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1269, in set_contents_from_file
+    md5 = self.compute_md5(fp, size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1020, in compute_md5
+    hex_digest, b64_digest, data_size = compute_md5(fp, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/utils.py", line 991, in compute_md5
+    return compute_hash(fp, buf_size, size, hash_algorithm=md5)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/utils.py", line 1012, in compute_hash
+    s = fp.read(buf_size)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 5108, in read
+    self.interrupt()
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 5285, in <lambda>
+    lambda: key2.set_contents_from_file(fp_a, rewind=True)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1293, in set_contents_from_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 750, in send_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 951, in _send_file_internal
+    query_args=query_args
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 664, in make_request
+    retry_handler=retry_handler
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1071, in make_request
+    retry_handler=retry_handler)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 940, in _mexe
+    request.body, request.headers)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 884, in sender
+    response.status, response.reason, body)
+S3ResponseError: S3ResponseError: 413 Request Entity Too Large
+None
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-272/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-272/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-272/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:24:19 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-272/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:MVjfecyG2f7uQVJHGjJ6MSqBDKE=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:19 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:MVjfecyG2f7uQVJHGjJ6MSqBDKE=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:24:19 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx0000000000000000004e9-00580106b3-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-272/testobj
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-272/testobj
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-272/testobj
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Length': '8388608', 'Content-MD5': u'UYiGy3DBwRnJmtG7tYZeeg==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+UYiGy3DBwRnJmtG7tYZeeg==
+application/octet-stream
+Fri, 14 Oct 2016 16:24:19 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-272/testobj
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:Q4Mb3WPKYAun4D2x8Ac5D6qg9Bw=
+boto: DEBUG: Final headers: {'Content-Length': '8388608', 'Content-MD5': 'UYiGy3DBwRnJmtG7tYZeeg==', 'Expect': '100-Continue', 'Date': 'Fri, 14 Oct 2016 16:24:19 GMT', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:Q4Mb3WPKYAun4D2x8Ac5D6qg9Bw='}
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: s3tests.functional.test_s3.test_versioning_obj_create_overwrite_multipart
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 6025, in test_versioning_obj_create_overwrite_multipart
+    c.append(_do_test_multipart_upload_contents(bucket, objname, 3))
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4758, in _do_test_multipart_upload_contents
+    mp.upload_part_from_file(StringIO(payload), i+1)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/multipart.py", line 260, in upload_part_from_file
+    query_args=query_args, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 1293, in set_contents_from_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 750, in send_file
+    chunked_transfer=chunked_transfer, size=size)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 951, in _send_file_internal
+    query_args=query_args
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 664, in make_request
+    retry_handler=retry_handler
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1071, in make_request
+    retry_handler=retry_handler)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 940, in _mexe
+    request.body, request.headers)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/key.py", line 884, in sender
+    response.status, response.reason, body)
+S3ResponseError: S3ResponseError: 413 Request Entity Too Large
+None
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-287/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-287/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-287/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:24:49 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-287/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:muafO4zavHJa48KFGR0Fggrq9wc=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:49 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:muafO4zavHJa48KFGR0Fggrq9wc=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:24:49 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx000000000000000000b5d-00580106d1-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-287/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-287/
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-287/?versioning
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-287/?versioning
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-287/?versioning
+boto: DEBUG: Data: <?xml version="1.0" encoding="UTF-8"?>
+       <VersioningConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
+         <Status>Enabled</Status>
+         <MfaDelete>Disabled</MfaDelete>
+       </VersioningConfiguration>
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:24:49 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-287/?versioning
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:ANZY7aEjhI3gxHJ6Q+d6sRItWRk=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:49 GMT', 'Content-Length': '228', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:ANZY7aEjhI3gxHJ6Q+d6sRItWRk=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:24:49 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx000000000000000000b5e-00580106d1-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-287/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-287/
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-287/?versioning
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-287/?versioning
+boto: DEBUG: Method: GET
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-287/?versioning
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+GET
+
+
+Fri, 14 Oct 2016 16:24:49 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-287/?versioning
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:eoGzsa5nt5WyovbKwzo3ZaB8qcY=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:49 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:eoGzsa5nt5WyovbKwzo3ZaB8qcY=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('content-length', '161'), ('server', 'nginx/1.4.6 (Ubuntu)'), ('connection', 'keep-alive'), ('x-amz-request-id', 'tx000000000000000000b5f-00580106d1-1028-default'), ('date', 'Fri, 14 Oct 2016 16:24:49 GMT'), ('content-type', 'application/xml')]
+boto: DEBUG: <?xml version="1.0" encoding="UTF-8"?><VersioningConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Status>Enabled</Status></VersioningConfiguration>
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-287/testobj
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-287/testobj
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-287/testobj?uploads
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-287/testobj?uploads
+boto: DEBUG: Method: POST
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-287/testobj?uploads
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+POST
+
+
+Fri, 14 Oct 2016 16:24:49 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-287/testobj?uploads
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:N2s05481XMepVJjLA6T7qaedqkI=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:49 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:N2s05481XMepVJjLA6T7qaedqkI=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('content-length', '271'), ('server', 'nginx/1.4.6 (Ubuntu)'), ('connection', 'keep-alive'), ('x-amz-request-id', 'tx000000000000000000b60-00580106d1-1028-default'), ('date', 'Fri, 14 Oct 2016 16:24:49 GMT'), ('content-type', 'application/xml')]
+boto: DEBUG: <?xml version="1.0" encoding="UTF-8"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>rzarzynski-iixsfhub7eeymlsmz2-287</Bucket><Key>testobj</Key><UploadId>2~YHeJJHVWwEaQ4V60VeuAe-mAEoVlDUb</UploadId></InitiateMultipartUploadResult>
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-287/testobj
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-287/testobj
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-287/testobj?uploadId=2~YHeJJHVWwEaQ4V60VeuAe-mAEoVlDUb&partNumber=1
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-287/testobj?uploadId=2~YHeJJHVWwEaQ4V60VeuAe-mAEoVlDUb&partNumber=1
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-287/testobj?uploadId=2~YHeJJHVWwEaQ4V60VeuAe-mAEoVlDUb&partNumber=1
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Length': '5242880', 'Content-MD5': u'Px/dMaFwDd8tEdv24mpuQA==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+Px/dMaFwDd8tEdv24mpuQA==
+application/octet-stream
+Fri, 14 Oct 2016 16:24:49 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-287/testobj?partNumber=1&uploadId=2~YHeJJHVWwEaQ4V60VeuAe-mAEoVlDUb
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:KQdWRRqXQ+laJyCebkIZnCtxIuk=
+boto: DEBUG: Final headers: {'Content-Length': '5242880', 'Content-MD5': 'Px/dMaFwDd8tEdv24mpuQA==', 'Expect': '100-Continue', 'Date': 'Fri, 14 Oct 2016 16:24:49 GMT', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:KQdWRRqXQ+laJyCebkIZnCtxIuk='}
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+FAIL: s3tests.functional.test_headers.test_object_create_bad_contentlength_none
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_headers.py", line 330, in test_object_create_bad_contentlength_none
+    eq(e.status, 411)
+AssertionError: 400 != 411
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-10/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-10/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-10/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 7070, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:23:34 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-10/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:uMwahjAg0VIJBSTp9lpjnm4HYDA=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:23:34 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:uMwahjAg0VIJBSTp9lpjnm4HYDA=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:23:34 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx000000000000000000014-0058010686-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-10/foo
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-10/foo
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-10/foo
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {'Content-Length': '3', 'Content-MD5': u'N7UdGUp1E+RbVvZSTy1R8g==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+N7UdGUp1E+RbVvZSTy1R8g==
+application/octet-stream
+Fri, 14 Oct 2016 16:23:34 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-10/foo
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:WWYd12H+HHFUfPF/Da3LpqqnmNY=
+boto: DEBUG: Final headers: {'Content-MD5': 'N7UdGUp1E+RbVvZSTy1R8g==', 'Expect': '100-Continue', 'Date': 'Fri, 14 Oct 2016 16:23:34 GMT', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:WWYd12H+HHFUfPF/Da3LpqqnmNY='}
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+FAIL: s3tests.functional.test_s3.test_post_object_upload_larger_than_chunk
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 1326, in test_post_object_upload_larger_than_chunk
+    eq(r.status_code, 204)
+AssertionError: 413 != 204
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-116/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-116/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-116/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:23:49 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-116/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:7QpAbOkkXttcz2N8q/BynriWD04=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:23:49 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:7QpAbOkkXttcz2N8q/BynriWD04=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:23:49 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx00000000000000000019b-0058010695-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+requests.packages.urllib3.connectionpool: INFO: Starting new HTTP connection (1): localhost
+requests.packages.urllib3.connectionpool: DEBUG: "POST /rzarzynski-iixsfhub7eeymlsmz2-116 HTTP/1.1" 413 207
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+FAIL: s3tests.functional.test_s3.test_100_continue
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/work/s3-tests/s3tests/functional/test_s3.py", line 4929, in test_100_continue
+    eq(status, '403')
+AssertionError: '100' != '403'
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: path=/rzarzynski-iixsfhub7eeymlsmz2-259/
+boto: DEBUG: auth_path=/rzarzynski-iixsfhub7eeymlsmz2-259/
+boto: DEBUG: Method: PUT
+boto: DEBUG: Path: /rzarzynski-iixsfhub7eeymlsmz2-259/
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:7070
+boto: DEBUG: Port: 7070
+boto: DEBUG: Params: {}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+PUT
+
+
+Fri, 14 Oct 2016 16:24:12 GMT
+/rzarzynski-iixsfhub7eeymlsmz2-259/
+boto: DEBUG: Signature:
+AWS f05e187d8d4f43a7972b03a92681194a:WSjkFKeYGBTZzRs+K9xeyN8JOiU=
+boto: DEBUG: Final headers: {'Date': 'Fri, 14 Oct 2016 16:24:12 GMT', 'Content-Length': '0', 'Authorization': u'AWS f05e187d8d4f43a7972b03a92681194a:WSjkFKeYGBTZzRs+K9xeyN8JOiU=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: Response headers: [('date', 'Fri, 14 Oct 2016 16:24:12 GMT'), ('content-length', '0'), ('x-amz-request-id', 'tx000000000000000000434-00580106ac-1028-default'), ('connection', 'keep-alive'), ('server', 'nginx/1.4.6 (Ubuntu)')]
+--------------------- >> end captured logging << ---------------------
+
+----------------------------------------------------------------------
+Ran 346 tests in 87.797s
+
+FAILED (SKIP=4, errors=14, failures=3)

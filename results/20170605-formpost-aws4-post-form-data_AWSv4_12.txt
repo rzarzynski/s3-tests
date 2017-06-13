@@ -1,0 +1,414 @@
+ERROR
+Failure: ImportError (No module named lxml) ... ERROR
+test_realistic.TestFileValidator.test_new_file_is_valid ... ok
+test_realistic.TestFileValidator.test_new_file_is_valid_on_several_calls ... ok
+test_realistic.TestFileValidator.test_new_file_is_valid_when_size_is_1 ... ok
+test_realistic.TestFiles.test_random_file_valid ... ok
+
+======================================================================
+ERROR: test suite for <module 's3tests.functional' from '/work/s3-tests/s3tests/functional/__init__.pyc'>
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/suite.py", line 209, in run
+    self.setUp()
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/suite.py", line 292, in setUp
+    self.setupContext(ancestor)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/suite.py", line 315, in setupContext
+    try_run(context, names)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/util.py", line 471, in try_run
+    return func()
+  File "/work/s3-tests/s3tests/functional/__init__.py", line 360, in setup
+    nuke_prefixed_buckets(prefix=prefix)
+  File "/work/s3-tests/s3tests/functional/__init__.py", line 115, in nuke_prefixed_buckets
+    nuke_prefixed_buckets_on_conn(prefix, name, conn)
+  File "/work/s3-tests/s3tests/functional/__init__.py", line 67, in nuke_prefixed_buckets_on_conn
+    for bucket in conn.get_all_buckets():
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 436, in get_all_buckets
+    response = self.make_request('GET', headers=headers)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 664, in make_request
+    retry_handler=retry_handler
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1071, in make_request
+    retry_handler=retry_handler)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1030, in _mexe
+    raise ex
+error: [Errno 111] Connection refused
+-------------------- >> begin captured stdout << ---------------------
+Deleting buckets on alt
+Cleaning buckets from connection alt prefix 'rzarzynski-wequ7iub42jjpsnjeh-'.
+
+--------------------- >> end captured stdout << ----------------------
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: Using access key provided by client.
+boto: DEBUG: Using secret key provided by client.
+boto: DEBUG: Using access key provided by client.
+boto: DEBUG: Using secret key provided by client.
+boto: DEBUG: path=/
+boto: DEBUG: auth_path=/
+boto: DEBUG: Method: GET
+boto: DEBUG: Path: /
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:8000
+boto: DEBUG: Port: 8000
+boto: DEBUG: Params: {}
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 8000, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: CanonicalRequest:
+GET
+/
+
+host:localhost:8000:8000
+user-agent:Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20170605T145604Z
+
+host;user-agent;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+boto: DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20170605T145604Z
+20170605//s3/aws4_request
+0b486f9e026a99b6aeffdc1400afd33535af0758f08c8bbd9ae71bf65051047f
+boto: DEBUG: Signature:
+007b3c15a1ca5e13fdf71fd2d16aee1a172e790c6aa84a865566d25fe88e7c99
+boto: DEBUG: Final headers: {'x-amz-content-sha256': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Content-Length': '0', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Host': 'localhost:8000:8000', 'X-Amz-Date': '20170605T145604Z', 'Authorization': 'AWS4-HMAC-SHA256 Credential=755882dc6eff471f81c7188c124316ee/20170605//s3/aws4_request,SignedHeaders=host;user-agent;x-amz-content-sha256;x-amz-date,Signature=007b3c15a1ca5e13fdf71fd2d16aee1a172e790c6aa84a865566d25fe88e7c99'}
+boto: DEBUG: encountered BadStatusLine exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 8000, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: CanonicalRequest:
+GET
+/
+
+content-length:0
+host:localhost:8000:8000
+user-agent:Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20170605T145605Z
+
+content-length;host;user-agent;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+boto: DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20170605T145605Z
+20170605//s3/aws4_request
+1af3d4bc3b7e6f0ebfd1872cb093a9fb790e2ab9080fa924e4d72fafd6d59d67
+boto: DEBUG: Signature:
+b31c840e62c77d5c46f47459b803b4bcd9f5883c7e2e982e41fed535a278170c
+boto: DEBUG: Final headers: {'x-amz-content-sha256': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Content-Length': '0', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Host': 'localhost:8000:8000', 'X-Amz-Date': '20170605T145605Z', 'Authorization': 'AWS4-HMAC-SHA256 Credential=755882dc6eff471f81c7188c124316ee/20170605//s3/aws4_request,SignedHeaders=content-length;host;user-agent;x-amz-content-sha256;x-amz-date,Signature=b31c840e62c77d5c46f47459b803b4bcd9f5883c7e2e982e41fed535a278170c'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 8000, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: CanonicalRequest:
+GET
+/
+
+content-length:0
+host:localhost:8000:8000
+user-agent:Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20170605T145606Z
+
+content-length;host;user-agent;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+boto: DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20170605T145606Z
+20170605//s3/aws4_request
+f8318944b9b2dd5176fd52aba0016eb7e2262e86bd17f547daa9fe4c4899bd15
+boto: DEBUG: Signature:
+75f35bdf7785675e62ffd2b0ab10e41ab246992c8e6182607dd8b4ff8eb2628b
+boto: DEBUG: Final headers: {'x-amz-content-sha256': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Content-Length': '0', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Host': 'localhost:8000:8000', 'X-Amz-Date': '20170605T145606Z', 'Authorization': 'AWS4-HMAC-SHA256 Credential=755882dc6eff471f81c7188c124316ee/20170605//s3/aws4_request,SignedHeaders=content-length;host;user-agent;x-amz-content-sha256;x-amz-date,Signature=75f35bdf7785675e62ffd2b0ab10e41ab246992c8e6182607dd8b4ff8eb2628b'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 8000, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: CanonicalRequest:
+GET
+/
+
+content-length:0
+host:localhost:8000:8000
+user-agent:Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20170605T145608Z
+
+content-length;host;user-agent;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+boto: DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20170605T145608Z
+20170605//s3/aws4_request
+a3624875f1c7af026dcbe8b47731975afdf39fdd56d152f1203718ba3fcfa846
+boto: DEBUG: Signature:
+e3250909d05b445780ccd440a279d158a7822a3e392930f485b90dd618c4a574
+boto: DEBUG: Final headers: {'x-amz-content-sha256': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Content-Length': '0', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Host': 'localhost:8000:8000', 'X-Amz-Date': '20170605T145608Z', 'Authorization': 'AWS4-HMAC-SHA256 Credential=755882dc6eff471f81c7188c124316ee/20170605//s3/aws4_request,SignedHeaders=content-length;host;user-agent;x-amz-content-sha256;x-amz-date,Signature=e3250909d05b445780ccd440a279d158a7822a3e392930f485b90dd618c4a574'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 8000, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: CanonicalRequest:
+GET
+/
+
+content-length:0
+host:localhost:8000:8000
+user-agent:Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20170605T145615Z
+
+content-length;host;user-agent;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+boto: DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20170605T145615Z
+20170605//s3/aws4_request
+cf9bd10b41aee529b4c7aa44113e37bd8d2ebc3483989862059ee877105193bb
+boto: DEBUG: Signature:
+eb48f771905e40239f9adb8c6cba598bc8bd12c0b2d9f5cfe4138f56eeb61989
+boto: DEBUG: Final headers: {'x-amz-content-sha256': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Content-Length': '0', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Host': 'localhost:8000:8000', 'X-Amz-Date': '20170605T145615Z', 'Authorization': 'AWS4-HMAC-SHA256 Credential=755882dc6eff471f81c7188c124316ee/20170605//s3/aws4_request,SignedHeaders=content-length;host;user-agent;x-amz-content-sha256;x-amz-date,Signature=eb48f771905e40239f9adb8c6cba598bc8bd12c0b2d9f5cfe4138f56eeb61989'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 8000, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: CanonicalRequest:
+GET
+/
+
+content-length:0
+host:localhost:8000:8000
+user-agent:Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20170605T145618Z
+
+content-length;host;user-agent;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+boto: DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20170605T145618Z
+20170605//s3/aws4_request
+e9a6717ebe120f3c7a0fe7920d3f403af1f783b438ba3e1ec965975d8cf99825
+boto: DEBUG: Signature:
+d5e84b0f36368975d6238d1c839a1d8b5f34baa5b459a2c7a9dd14739ea0a656
+boto: DEBUG: Final headers: {'x-amz-content-sha256': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Content-Length': '0', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Host': 'localhost:8000:8000', 'X-Amz-Date': '20170605T145618Z', 'Authorization': 'AWS4-HMAC-SHA256 Credential=755882dc6eff471f81c7188c124316ee/20170605//s3/aws4_request,SignedHeaders=content-length;host;user-agent;x-amz-content-sha256;x-amz-date,Signature=d5e84b0f36368975d6238d1c839a1d8b5f34baa5b459a2c7a9dd14739ea0a656'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 8000, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: CanonicalRequest:
+GET
+/
+
+content-length:0
+host:localhost:8000:8000
+user-agent:Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20170605T145642Z
+
+content-length;host;user-agent;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+boto: DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20170605T145642Z
+20170605//s3/aws4_request
+4381e2c99779e1631e54785069d72ea176fbe0fea4788cf145fd4e137ffaa0f2
+boto: DEBUG: Signature:
+20af1cc500b556fe6055b943af04119e57d802c2c29b4a94a3cc0c6bb428d939
+boto: DEBUG: Final headers: {'x-amz-content-sha256': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Content-Length': '0', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Host': 'localhost:8000:8000', 'X-Amz-Date': '20170605T145642Z', 'Authorization': 'AWS4-HMAC-SHA256 Credential=755882dc6eff471f81c7188c124316ee/20170605//s3/aws4_request,SignedHeaders=content-length;host;user-agent;x-amz-content-sha256;x-amz-date,Signature=20af1cc500b556fe6055b943af04119e57d802c2c29b4a94a3cc0c6bb428d939'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 8000, 'timeout': 70}
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: Failure: ImportError (No module named lxml)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/loader.py", line 418, in loadTestsFromName
+    addr.filename, addr.module)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "/work/s3-tests/s3tests/fuzz/test/test_fuzzer.py", line 21, in <module>
+    from ..headers import *
+  File "/work/s3-tests/s3tests/fuzz/headers.py", line 6, in <module>
+    from .. import common
+  File "/work/s3-tests/s3tests/common.py", line 9, in <module>
+    from lxml import etree
+ImportError: No module named lxml
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: Using access key provided by client.
+boto: DEBUG: Using secret key provided by client.
+boto: DEBUG: Using access key provided by client.
+boto: DEBUG: Using secret key provided by client.
+boto: DEBUG: path=/
+boto: DEBUG: auth_path=/
+boto: DEBUG: Method: GET
+boto: DEBUG: Path: /
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:8000
+boto: DEBUG: Port: 8000
+boto: DEBUG: Params: {}
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 8000, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: CanonicalRequest:
+GET
+/
+
+host:localhost:8000:8000
+user-agent:Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20170605T145604Z
+
+host;user-agent;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+boto: DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20170605T145604Z
+20170605//s3/aws4_request
+0b486f9e026a99b6aeffdc1400afd33535af0758f08c8bbd9ae71bf65051047f
+boto: DEBUG: Signature:
+007b3c15a1ca5e13fdf71fd2d16aee1a172e790c6aa84a865566d25fe88e7c99
+boto: DEBUG: Final headers: {'x-amz-content-sha256': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Content-Length': '0', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Host': 'localhost:8000:8000', 'X-Amz-Date': '20170605T145604Z', 'Authorization': 'AWS4-HMAC-SHA256 Credential=755882dc6eff471f81c7188c124316ee/20170605//s3/aws4_request,SignedHeaders=host;user-agent;x-amz-content-sha256;x-amz-date,Signature=007b3c15a1ca5e13fdf71fd2d16aee1a172e790c6aa84a865566d25fe88e7c99'}
+boto: DEBUG: encountered BadStatusLine exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 8000, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: CanonicalRequest:
+GET
+/
+
+content-length:0
+host:localhost:8000:8000
+user-agent:Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20170605T145605Z
+
+content-length;host;user-agent;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+boto: DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20170605T145605Z
+20170605//s3/aws4_request
+1af3d4bc3b7e6f0ebfd1872cb093a9fb790e2ab9080fa924e4d72fafd6d59d67
+boto: DEBUG: Signature:
+b31c840e62c77d5c46f47459b803b4bcd9f5883c7e2e982e41fed535a278170c
+boto: DEBUG: Final headers: {'x-amz-content-sha256': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Content-Length': '0', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Host': 'localhost:8000:8000', 'X-Amz-Date': '20170605T145605Z', 'Authorization': 'AWS4-HMAC-SHA256 Credential=755882dc6eff471f81c7188c124316ee/20170605//s3/aws4_request,SignedHeaders=content-length;host;user-agent;x-amz-content-sha256;x-amz-date,Signature=b31c840e62c77d5c46f47459b803b4bcd9f5883c7e2e982e41fed535a278170c'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 8000, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: CanonicalRequest:
+GET
+/
+
+content-length:0
+host:localhost:8000:8000
+user-agent:Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20170605T145606Z
+
+content-length;host;user-agent;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+boto: DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20170605T145606Z
+20170605//s3/aws4_request
+f8318944b9b2dd5176fd52aba0016eb7e2262e86bd17f547daa9fe4c4899bd15
+boto: DEBUG: Signature:
+75f35bdf7785675e62ffd2b0ab10e41ab246992c8e6182607dd8b4ff8eb2628b
+boto: DEBUG: Final headers: {'x-amz-content-sha256': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Content-Length': '0', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Host': 'localhost:8000:8000', 'X-Amz-Date': '20170605T145606Z', 'Authorization': 'AWS4-HMAC-SHA256 Credential=755882dc6eff471f81c7188c124316ee/20170605//s3/aws4_request,SignedHeaders=content-length;host;user-agent;x-amz-content-sha256;x-amz-date,Signature=75f35bdf7785675e62ffd2b0ab10e41ab246992c8e6182607dd8b4ff8eb2628b'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 8000, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: CanonicalRequest:
+GET
+/
+
+content-length:0
+host:localhost:8000:8000
+user-agent:Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20170605T145608Z
+
+content-length;host;user-agent;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+boto: DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20170605T145608Z
+20170605//s3/aws4_request
+a3624875f1c7af026dcbe8b47731975afdf39fdd56d152f1203718ba3fcfa846
+boto: DEBUG: Signature:
+e3250909d05b445780ccd440a279d158a7822a3e392930f485b90dd618c4a574
+boto: DEBUG: Final headers: {'x-amz-content-sha256': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Content-Length': '0', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Host': 'localhost:8000:8000', 'X-Amz-Date': '20170605T145608Z', 'Authorization': 'AWS4-HMAC-SHA256 Credential=755882dc6eff471f81c7188c124316ee/20170605//s3/aws4_request,SignedHeaders=content-length;host;user-agent;x-amz-content-sha256;x-amz-date,Signature=e3250909d05b445780ccd440a279d158a7822a3e392930f485b90dd618c4a574'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 8000, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: CanonicalRequest:
+GET
+/
+
+content-length:0
+host:localhost:8000:8000
+user-agent:Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20170605T145615Z
+
+content-length;host;user-agent;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+boto: DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20170605T145615Z
+20170605//s3/aws4_request
+cf9bd10b41aee529b4c7aa44113e37bd8d2ebc3483989862059ee877105193bb
+boto: DEBUG: Signature:
+eb48f771905e40239f9adb8c6cba598bc8bd12c0b2d9f5cfe4138f56eeb61989
+boto: DEBUG: Final headers: {'x-amz-content-sha256': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Content-Length': '0', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Host': 'localhost:8000:8000', 'X-Amz-Date': '20170605T145615Z', 'Authorization': 'AWS4-HMAC-SHA256 Credential=755882dc6eff471f81c7188c124316ee/20170605//s3/aws4_request,SignedHeaders=content-length;host;user-agent;x-amz-content-sha256;x-amz-date,Signature=eb48f771905e40239f9adb8c6cba598bc8bd12c0b2d9f5cfe4138f56eeb61989'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 8000, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: CanonicalRequest:
+GET
+/
+
+content-length:0
+host:localhost:8000:8000
+user-agent:Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20170605T145618Z
+
+content-length;host;user-agent;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+boto: DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20170605T145618Z
+20170605//s3/aws4_request
+e9a6717ebe120f3c7a0fe7920d3f403af1f783b438ba3e1ec965975d8cf99825
+boto: DEBUG: Signature:
+d5e84b0f36368975d6238d1c839a1d8b5f34baa5b459a2c7a9dd14739ea0a656
+boto: DEBUG: Final headers: {'x-amz-content-sha256': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Content-Length': '0', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Host': 'localhost:8000:8000', 'X-Amz-Date': '20170605T145618Z', 'Authorization': 'AWS4-HMAC-SHA256 Credential=755882dc6eff471f81c7188c124316ee/20170605//s3/aws4_request,SignedHeaders=content-length;host;user-agent;x-amz-content-sha256;x-amz-date,Signature=d5e84b0f36368975d6238d1c839a1d8b5f34baa5b459a2c7a9dd14739ea0a656'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 8000, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: CanonicalRequest:
+GET
+/
+
+content-length:0
+host:localhost:8000:8000
+user-agent:Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20170605T145642Z
+
+content-length;host;user-agent;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+boto: DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20170605T145642Z
+20170605//s3/aws4_request
+4381e2c99779e1631e54785069d72ea176fbe0fea4788cf145fd4e137ffaa0f2
+boto: DEBUG: Signature:
+20af1cc500b556fe6055b943af04119e57d802c2c29b4a94a3cc0c6bb428d939
+boto: DEBUG: Final headers: {'x-amz-content-sha256': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Content-Length': '0', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic', 'Host': 'localhost:8000:8000', 'X-Amz-Date': '20170605T145642Z', 'Authorization': 'AWS4-HMAC-SHA256 Credential=755882dc6eff471f81c7188c124316ee/20170605//s3/aws4_request,SignedHeaders=content-length;host;user-agent;x-amz-content-sha256;x-amz-date,Signature=20af1cc500b556fe6055b943af04119e57d802c2c29b4a94a3cc0c6bb428d939'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 8000, 'timeout': 70}
+--------------------- >> end captured logging << ---------------------
+
+----------------------------------------------------------------------
+Ran 5 tests in 67.731s
+
+FAILED (errors=2)

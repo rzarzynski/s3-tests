@@ -1,0 +1,173 @@
+ERROR
+s3tests.fuzz.test.test_fuzzer.test_load_graph ... ok
+s3tests.fuzz.test.test_fuzzer.test_descend_leaf_node ... ok
+s3tests.fuzz.test.test_fuzzer.test_descend_node ... ok
+s3tests.fuzz.test.test_fuzzer.test_descend_bad_node ... ok
+s3tests.fuzz.test.test_fuzzer.test_descend_nonexistant_child ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_printable ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_binary ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_printable_no_whitespace ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_binary_no_whitespace ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_no_args ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_no_charset ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_exact_length ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_bad_charset ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_random_missing_length ... ok
+s3tests.fuzz.test.test_fuzzer.test_assemble_decision ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_escape ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_indirect ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_indirect_double ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_recursive ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_recursive_mutual ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_recursive_not_too_eager ... ok
+s3tests.fuzz.test.test_fuzzer.test_make_choice_unweighted_with_space ... ok
+s3tests.fuzz.test.test_fuzzer.test_weighted_choices ... ok
+s3tests.fuzz.test.test_fuzzer.test_null_choices ... ok
+s3tests.fuzz.test.test_fuzzer.test_weighted_null_choices ... ok
+s3tests.fuzz.test.test_fuzzer.test_null_child ... ok
+s3tests.fuzz.test.test_fuzzer.test_weighted_set ... ok
+s3tests.fuzz.test.test_fuzzer.test_header_presence ... ok
+s3tests.fuzz.test.test_fuzzer.test_duplicate_header ... ok
+s3tests.fuzz.test.test_fuzzer.test_expand_headers ... ok
+test_realistic.TestFileValidator.test_new_file_is_valid ... ok
+test_realistic.TestFileValidator.test_new_file_is_valid_on_several_calls ... ok
+test_realistic.TestFileValidator.test_new_file_is_valid_when_size_is_1 ... ok
+test_realistic.TestFiles.test_random_file_valid ... ok
+
+======================================================================
+ERROR: test suite for <module 's3tests.functional' from '/work/s3-tests/s3tests/functional/__init__.pyc'>
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/suite.py", line 209, in run
+    self.setUp()
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/suite.py", line 292, in setUp
+    self.setupContext(ancestor)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/suite.py", line 315, in setupContext
+    try_run(context, names)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/nose/util.py", line 471, in try_run
+    return func()
+  File "/work/s3-tests/s3tests/functional/__init__.py", line 352, in setup
+    nuke_prefixed_buckets(prefix=prefix)
+  File "/work/s3-tests/s3tests/functional/__init__.py", line 111, in nuke_prefixed_buckets
+    nuke_prefixed_buckets_on_conn(prefix, name, conn)
+  File "/work/s3-tests/s3tests/functional/__init__.py", line 63, in nuke_prefixed_buckets_on_conn
+    for bucket in conn.get_all_buckets():
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 436, in get_all_buckets
+    response = self.make_request('GET', headers=headers)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/s3/connection.py", line 664, in make_request
+    retry_handler=retry_handler
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1071, in make_request
+    retry_handler=retry_handler)
+  File "/work/s3-tests/virtualenv/local/lib/python2.7/site-packages/boto/connection.py", line 1030, in _mexe
+    raise ex
+error: [Errno 111] Connection refused
+-------------------- >> begin captured stdout << ---------------------
+Deleting buckets on alt
+Cleaning buckets from connection alt prefix 'rzarzynski-hpkok8o4313ko1xysj-'.
+
+--------------------- >> end captured stdout << ----------------------
+-------------------- >> begin captured logging << --------------------
+boto: DEBUG: Using access key provided by client.
+boto: DEBUG: Using secret key provided by client.
+boto: DEBUG: Using access key provided by client.
+boto: DEBUG: Using secret key provided by client.
+boto: DEBUG: path=/
+boto: DEBUG: auth_path=/
+boto: DEBUG: Method: GET
+boto: DEBUG: Path: /
+boto: DEBUG: Data: 
+boto: DEBUG: Headers: {}
+boto: DEBUG: Host: localhost:10001
+boto: DEBUG: Port: 10001
+boto: DEBUG: Params: {}
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 10001, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+GET
+
+
+Wed, 05 Oct 2016 12:59:33 GMT
+/
+boto: DEBUG: Signature:
+AWS 755882dc6eff471f81c7188c124316ee:BgfiK8/m0aCMJ8GrS6/imAZFIn0=
+boto: DEBUG: Final headers: {'Date': 'Wed, 05 Oct 2016 12:59:33 GMT', 'Content-Length': '0', 'Authorization': u'AWS 755882dc6eff471f81c7188c124316ee:BgfiK8/m0aCMJ8GrS6/imAZFIn0=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 10001, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+GET
+
+
+Wed, 05 Oct 2016 12:59:33 GMT
+/
+boto: DEBUG: Signature:
+AWS 755882dc6eff471f81c7188c124316ee:BgfiK8/m0aCMJ8GrS6/imAZFIn0=
+boto: DEBUG: Final headers: {'Date': 'Wed, 05 Oct 2016 12:59:33 GMT', 'Content-Length': '0', 'Authorization': u'AWS 755882dc6eff471f81c7188c124316ee:BgfiK8/m0aCMJ8GrS6/imAZFIn0=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 10001, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+GET
+
+
+Wed, 05 Oct 2016 12:59:33 GMT
+/
+boto: DEBUG: Signature:
+AWS 755882dc6eff471f81c7188c124316ee:BgfiK8/m0aCMJ8GrS6/imAZFIn0=
+boto: DEBUG: Final headers: {'Date': 'Wed, 05 Oct 2016 12:59:33 GMT', 'Content-Length': '0', 'Authorization': u'AWS 755882dc6eff471f81c7188c124316ee:BgfiK8/m0aCMJ8GrS6/imAZFIn0=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 10001, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+GET
+
+
+Wed, 05 Oct 2016 12:59:33 GMT
+/
+boto: DEBUG: Signature:
+AWS 755882dc6eff471f81c7188c124316ee:BgfiK8/m0aCMJ8GrS6/imAZFIn0=
+boto: DEBUG: Final headers: {'Date': 'Wed, 05 Oct 2016 12:59:33 GMT', 'Content-Length': '0', 'Authorization': u'AWS 755882dc6eff471f81c7188c124316ee:BgfiK8/m0aCMJ8GrS6/imAZFIn0=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 10001, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+GET
+
+
+Wed, 05 Oct 2016 12:59:33 GMT
+/
+boto: DEBUG: Signature:
+AWS 755882dc6eff471f81c7188c124316ee:BgfiK8/m0aCMJ8GrS6/imAZFIn0=
+boto: DEBUG: Final headers: {'Date': 'Wed, 05 Oct 2016 12:59:33 GMT', 'Content-Length': '0', 'Authorization': u'AWS 755882dc6eff471f81c7188c124316ee:BgfiK8/m0aCMJ8GrS6/imAZFIn0=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 10001, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+GET
+
+
+Wed, 05 Oct 2016 12:59:33 GMT
+/
+boto: DEBUG: Signature:
+AWS 755882dc6eff471f81c7188c124316ee:BgfiK8/m0aCMJ8GrS6/imAZFIn0=
+boto: DEBUG: Final headers: {'Date': 'Wed, 05 Oct 2016 12:59:33 GMT', 'Content-Length': '0', 'Authorization': u'AWS 755882dc6eff471f81c7188c124316ee:BgfiK8/m0aCMJ8GrS6/imAZFIn0=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 10001, 'timeout': 70}
+boto: DEBUG: Token: None
+boto: DEBUG: StringToSign:
+GET
+
+
+Wed, 05 Oct 2016 12:59:33 GMT
+/
+boto: DEBUG: Signature:
+AWS 755882dc6eff471f81c7188c124316ee:BgfiK8/m0aCMJ8GrS6/imAZFIn0=
+boto: DEBUG: Final headers: {'Date': 'Wed, 05 Oct 2016 12:59:33 GMT', 'Content-Length': '0', 'Authorization': u'AWS 755882dc6eff471f81c7188c124316ee:BgfiK8/m0aCMJ8GrS6/imAZFIn0=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.19.0-25-generic'}
+boto: DEBUG: encountered error exception, reconnecting
+boto: DEBUG: establishing HTTP connection: kwargs={'port': 10001, 'timeout': 70}
+--------------------- >> end captured logging << ---------------------
+
+----------------------------------------------------------------------
+Ran 34 tests in 79.966s
+
+FAILED (errors=1)
